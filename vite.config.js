@@ -8,11 +8,11 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: "index.html",
-        sobre: "/src/pages/sobre.html",
-        servicos: "/src/pages/servicos.html",
-        contactos: "/src/pages/contactos.html",
-        politica_privacidade: "/src/pages/politica-privacidade.html",
-        termos_condicoes: "/src/pages/termos-condicoes.html",
+        sobre: "src/pages/sobre.html",
+        servicos: "src/pages/servicos.html",
+        contactos: "src/pages/contactos.html",
+        politica_privacidade: "src/pages/politica-privacidade.html",
+        termos_condicoes: "src/pages/termos-condicoes.html",
       },
     },
   },
