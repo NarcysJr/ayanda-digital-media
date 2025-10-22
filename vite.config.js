@@ -1,6 +1,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
+  base: "/ayanda-digital-media/",
   root: ".",
   build: {
     outDir: "dist",
