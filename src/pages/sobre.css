@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+  .max-w-6xl.mx-auto.grid {
+    grid-template-columns: 1fr !important;
+    gap: 2rem !important;
+  }
+  
+  .max-w-6xl.mx-auto.grid > div {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .p-10 {
+    padding: 2rem 1.5rem !important;
+  }
+  
+  .text-5xl {
+    font-size: 3rem !important;
+  }
+  
+  .text-3xl {
+    font-size: 2rem !important;
+  }
+}
