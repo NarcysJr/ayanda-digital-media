@@ -16,11 +16,11 @@ class MeuFooter extends HTMLElement {
             </div>
 
             <div class="flex justify-center space-x-4 mt-4 text-sm">
-                <a href="/src/pages/politica-privacidade.html" class="text-[#D4AF37] hover:underline">
+                <a href="/ayanda-digital-media/politica-privacidade.html" class="text-[#D4AF37] hover:underline">
                     Política de Privacidade
                 </a>
                 <span>|</span>
-                <a href="/src/pages/termos-condicoes.html" class="text-[#D4AF37] hover:underline">
+                <a href="/ayanda-digital-media/termos-condicoes.html" class="text-[#D4AF37] hover:underline">
                     Termos e Condições
                 </a>
             </div>
