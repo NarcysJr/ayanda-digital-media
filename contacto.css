@@ -6,7 +6,8 @@
   width: 100%;
 }
 
-.form-card, .info-card {
+.form-card,
+.info-card {
   width: 100%;
   height: 100%;
 }
@@ -16,6 +17,7 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     align-items: start;
+    gap: 2rem;
   }
 
   .form-card {
@@ -40,7 +42,8 @@
     margin: 0 auto;
     text-align: center;
   }
-  /* Centralizar todo o conteúdo do card de informações */
+
+  /* Centralizar conteúdo do card de informações */
   .info-card > div {
     display: flex;
     flex-direction: column;
@@ -62,12 +65,13 @@
   .info-card .flex {
     justify-content: center !important;
   }
+
   .truncate-mobile {
     max-width: 250px;
   }
 }
 
-/* Garantir que os ícones fiquem na mesma linha */
+/* Itens de contacto alinhados */
 .contact-item {
   display: flex;
   align-items: center;
@@ -86,7 +90,7 @@
   min-width: 0;
 }
 
-/* Texto muito longo será truncado */
+/* Texto muito longo truncado */
 .truncate-mobile {
   overflow: hidden;
   text-overflow: ellipsis;
