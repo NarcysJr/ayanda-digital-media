@@ -20,7 +20,7 @@ class MeuMenu extends HTMLElement {
           <nav id="menu" 
                class="hidden md:flex flex-col md:flex-row md:space-x-8 text-center md:text-left mt-4 md:mt-0">
             
-            <a href="index.html" class="menu-link">Início</a>
+            <a href="../../../../index.html" class="menu-link">Início</a>
 
             <!-- Dropdown Sobre -->
             <div class="relative group dropdown-container">
@@ -33,14 +33,14 @@ class MeuMenu extends HTMLElement {
               <div class="submenu absolute left-0 top-full w-44 bg-black border border-[#D4AF37]/30 rounded-lg 
                           opacity-0 invisible group-hover:opacity-100 group-hover:visible 
                           transition-all duration-300">
-                <a href="src/pages/sobre.html#missao" class="block px-4 py-2 hover:bg-[#D4AF37]/10">Missão</a>
-                <a href="src/pages/sobre.html#visao" class="block px-4 py-2 hover:bg-[#D4AF37]/10">Visão</a>
-                <a href="src/pages/sobre.html#valores" class="block px-4 py-2 hover:bg-[#D4AF37]/10">Valores</a>
+                <a href="../../../sobre.html#missao" class="block px-4 py-2 hover:bg-[#D4AF37]/10">Missão</a>
+                <a href="../../../sobre.html#visao" class="block px-4 py-2 hover:bg-[#D4AF37]/10">Visão</a>
+                <a href="../../../sobre.html#valores" class="block px-4 py-2 hover:bg-[#D4AF37]/10">Valores</a>
               </div>
             </div>
 
-            <a href="src/pages/servicos.html" class="menu-link">Serviços</a>
-            <a href="src/pages/contactos.html" class="menu-link">Contactos</a>
+            <a href="../../../servicos.html" class="menu-link">Serviços</a>
+            <a href="../../../contactos.html" class="menu-link">Contactos</a>
           </nav>
         </div>
       </header>
