@@ -1,6 +1,5 @@
 {
   "name": "ayanda-digital-media",
-  "homepage": "https://narcysjr.github.io/ayanda-digital-media",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -10,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
 
   },
   "dependencies": {
