@@ -94,10 +94,6 @@ export default function Portfolio() {
       <section
         id="heroSection"
         className="relative flex flex-col justify-center items-center text-center bg-cover bg-center bg-no-repeat"
-        initial={{ opacity: 0, y: 40 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
-        viewport={{ once: false }}
       >
         <div className="layer">
           <div className="relative z-10 px-6">
@@ -118,10 +114,6 @@ export default function Portfolio() {
       {/* FILTROS */}
       <section
         className="py-10 text-center"
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
-        viewport={{ once: false }}
       >
         <div className="flex flex-wrap justify-center gap-4">
           {categorias.map((cat) => (
