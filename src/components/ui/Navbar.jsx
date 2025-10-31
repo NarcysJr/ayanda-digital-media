@@ -55,14 +55,14 @@ export default function Navbar() {
         >
           {/* LINKS CENTRAIS */}
           <div className="flex flex-col md:flex-row md:space-x-8 items-center">
-            <NavLink to="/" className={linkClasses} onClick={closeMenu}>
+            <NavLink to="/" end className={linkClasses} onClick={closeMenu}>
               Início
             </NavLink>
 
             {/* DROPDOWN SOBRE */}
             <div className="relative group">
               <NavLink
-                to="/sobre"
+                to="sobre"
                 className={({ isActive }) =>
                   `menu-link flex items-center justify-center transition ${
                     isActive
@@ -78,19 +78,19 @@ export default function Navbar() {
               {/* Submenu (desktop apenas) */}
               <div className="submenu absolute left-0 top-full w-44 bg-black border border-[#D4AF37]/30 rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 hidden md:block">
                 <a
-                  href="/sobre#missao"
+                  href="sobre#missao"
                   className="block px-4 py-2 hover:bg-[#D4AF37]/10"
                 >
                   Missão
                 </a>
                 <a
-                  href="/sobre#visao"
+                  href="sobre#visao"
                   className="block px-4 py-2 hover:bg-[#D4AF37]/10"
                 >
                   Visão
                 </a>
                 <a
-                  href="/sobre#valores"
+                  href="sobre#valores"
                   className="block px-4 py-2 hover:bg-[#D4AF37]/10"
                 >
                   Valores
@@ -98,18 +98,18 @@ export default function Navbar() {
               </div>
             </div>
 
-            <NavLink to="/servicos" className={linkClasses} onClick={closeMenu}>
+            <NavLink to="servicos" className={linkClasses} onClick={closeMenu}>
               Serviços
             </NavLink>
             <NavLink
-              to="/portfolio"
+              to="portfolio"
               className={linkClasses}
               onClick={closeMenu}
             >
               Portfólio
             </NavLink>
             <NavLink
-              to="/contactos"
+              to="contactos"
               className={linkClasses}
               onClick={closeMenu}
             >

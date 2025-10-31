@@ -14,9 +14,9 @@ export default function Portfolio() {
     {
       categoria: "Ensaio Individual",
       img: {
-        pequena: "/imgs/ensaio-individual/pequena/ensaioIndividual-7-pequena.jpg",
-        media: "/imgs/ensaio-individual/media/ensaioIndividual-7-media.jpg",
-        grande: "/imgs/ensaio-individual/grande/ensaioIndividual-7-grande.jpg",
+        pequena: "imgs/ensaio-individual/pequena/ensaioIndividual-3-pequena.jpg",
+        media: "imgs/ensaio-individual/media/ensaioIndividual-3-media.jpg",
+        grande: "imgs/ensaio-individual/grande/ensaioIndividual-3-grande.jpg",
       },
       titulo: "Sessão ao Ar Livre",
       descricao:
@@ -25,9 +25,9 @@ export default function Portfolio() {
     {
       categoria: "Ensaio Coletivo",
       img: {
-        pequena: "/imgs/ensaio-coletivo/pequena/ensaioColetivo-1-pequena.jpg",
-        media: "/imgs/ensaio-coletivo/media/ensaioColetivo-1-media.jpg",
-        grande: "/imgs/ensaio-coletivo/grande/ensaioColetivo-1-grande.jpg",
+        pequena: "imgs/ensaio-coletivo/pequena/ensaioColetivo-1-pequena.jpg",
+        media: "imgs/ensaio-coletivo/media/ensaioColetivo-1-media.jpg",
+        grande: "imgs/ensaio-coletivo/grande/ensaioColetivo-1-grande.jpg",
       },
       titulo: "Momentos em Grupo",
       descricao:
@@ -36,9 +36,9 @@ export default function Portfolio() {
     {
       categoria: "Ensaio Individual",
       img: {
-        pequena: "/imgs/ensaio-individual/pequena/ensaioIndividual-11-pequena.jpg",
-        media: "/imgs/ensaio-individual/media/ensaioIndividual-11-media.jpg",
-        grande: "/imgs/ensaio-individual/grande/ensaioIndividual-11-grande.jpg",
+        pequena: "imgs/ensaio-individual/pequena/ensaioIndividual-11-pequena.jpg",
+        media: "imgs/ensaio-individual/media/ensaioIndividual-11-media.jpg",
+        grande: "imgs/ensaio-individual/grande/ensaioIndividual-11-grande.jpg",
       },
       titulo: "Expressão e Identidade",
       descricao:
@@ -47,9 +47,9 @@ export default function Portfolio() {
     {
       categoria: "Eventos",
       img: {
-        pequena: "/imgs/pequena/ensaio-4-pequena.jpg",
-        media: "/imgs/media/ensaio-4-media.jpg",
-        grande: "/imgs/grande/ensaio-4-grande.jpg",
+        pequena: "imgs/pequena/ensaio-4-pequena.jpg",
+        media: "imgs/media/ensaio-4-media.jpg",
+        grande: "imgs/grande/ensaio-4-grande.jpg",
       },
       titulo: "Evento Criativo",
       descricao:
@@ -58,9 +58,9 @@ export default function Portfolio() {
     {
       categoria: "Corporativo",
       img: {
-        pequena: "/imgs/ensaio-corporativo/pequena/ensaioCorporativo-11-pequena.jpg",
-        media: "/imgs/ensaio-corporativo/media/ensaioCorporativo-11-media.jpg",
-        grande: "/imgs/ensaio-corporativo/grande/ensaioCorporativo-11-grande.jpg",
+        pequena: "imgs/ensaio-corporativo/pequena/ensaioCorporativo-11-pequena.jpg",
+        media: "imgs/ensaio-corporativo/media/ensaioCorporativo-11-media.jpg",
+        grande: "imgs/ensaio-corporativo/grande/ensaioCorporativo-11-grande.jpg",
       },
       titulo: "Sessão Corporativa",
       descricao:
@@ -69,9 +69,9 @@ export default function Portfolio() {
     {
       categoria: "Corporativo",
       img: {
-        pequena: "/imgs/ensaio-corporativo/pequena/ensaioCorporativo-8-pequena.jpg",
-        media: "/imgs/ensaio-corporativo/media/ensaioCorporativo-8-media.jpg",
-        grande: "/imgs/ensaio-corporativo/grande/ensaioCorporativo-8-grande.jpg",
+        pequena: "imgs/ensaio-corporativo/pequena/ensaioCorporativo-8-pequena.jpg",
+        media: "imgs/ensaio-corporativo/media/ensaioCorporativo-8-media.jpg",
+        grande: "imgs/ensaio-corporativo/grande/ensaioCorporativo-8-grande.jpg",
       },
       titulo: "Trabalho em Progresso",
       descricao:
@@ -220,21 +220,21 @@ export default function Portfolio() {
             <a
               href="https://ayandadigitalmedia.pixieset.com/decorandocompropositosuieventos/"
               target="_blank"
-              className="px-6 py-3 bg-white text-[#D4AF37] font-semibold rounded-full hover:bg-[#d4af377e] hover:text-white transition"
+              className="px-6 py-3 bg-[#d4af377e] text-white font-semibold rounded-full hover:bg-white hover:text-[#D4AF37] transition"
             >
               Decoração & Eventos
             </a>
             <a
               href="https://luizfelphotos.pixieset.com/estudio/"
               target="_blank"
-              className="px-6 py-3 bg-white text-[#D4AF37] font-semibold rounded-full hover:bg-[#d4af377e] hover:text-white transition"
+              className="px-6 py-3 bg-[#d4af377e] text-white font-semibold rounded-full hover:bg-white hover:text-[#D4AF37] transition"
             >
               Sessões de Estúdio
             </a>
             <a
               href="https://luizfelphotos.pixieset.com/gloria/"
               target="_blank"
-              className="px-6 py-3 bg-white text-[#D4AF37] font-semibold rounded-full hover:bg-[#d4af377e] hover:text-white transition"
+              className="px-6 py-3 bg-[#d4af377e] text-white font-semibold rounded-full hover:bg-white hover:text-[#D4AF37] transition"
             >
               Projeto Glória
             </a>

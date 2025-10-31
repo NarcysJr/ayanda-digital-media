@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayanda Digital Media</title>
+    <link rel="icon" href="/imgs/logo/favicon/favicon.ico">
+    <script>
+        
+        const path = window.location.pathname;
+        const basePath = '/ayanda-digital-media/';
+        
+        if (path !== basePath + '/' && path !== basePath + '/index.html') {
+            // Armazena o caminho original e redireciona
+            sessionStorage.setItem('redirect', path);
+        }
+        
+        // Redireciona para a aplicação React
+        window.location.href = '/ayanda-digital-media/';
+    </script>
+</head>
+<body>
+    <noscript>
+        <h1>Ayanda Digital Media</h1>
+        <p>Redirecionando...</p>
+        <p>Se não for redirecionado automaticamente, <a href="/ayanda-digital-media/">clique aqui</a>.</p>
+    </noscript>
+</body>
+</html>

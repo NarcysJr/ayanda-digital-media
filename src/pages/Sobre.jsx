@@ -30,7 +30,7 @@ export default function Sobre() {
             <div className="mb-5 text-[#D4AF37] text-5xl">
               <i className="fas fa-bullseye"></i>
             </div>
-            <h2 className="font-[Playfair Display] text-3xl text-[#D4AF37] mb-4 tracking-wide">
+            <h2 className="font-[Playfair Display] text-3xl text-[#D4AF37] mb-4 tracking-wide" id="missao">
               Missão
             </h2>
             <p className="text-gray-700 leading-relaxed text-left">
@@ -46,7 +46,7 @@ export default function Sobre() {
             <div className="mb-5 text-[#D4AF37] text-5xl">
               <i className="fas fa-eye"></i>
             </div>
-            <h2 className="font-[Playfair Display] text-3xl text-[#D4AF37] mb-4 tracking-wide">
+            <h2 className="font-[Playfair Display] text-3xl text-[#D4AF37] mb-4 tracking-wide" id="visao">
               Visão
             </h2>
             <p className="text-gray-700 leading-relaxed text-left">
@@ -63,7 +63,7 @@ export default function Sobre() {
             <div className="mb-5 text-[#D4AF37] text-5xl">
               <i className="fas fa-hand-holding-heart"></i>
             </div>
-            <h2 className="font-[Playfair Display] text-3xl text-[#D4AF37] mb-4 tracking-wide">
+            <h2 className="font-[Playfair Display] text-3xl text-[#D4AF37] mb-4 tracking-wide" id="valores">
               Valores
             </h2>
             <ul className="text-left text-gray-700 leading-relaxed space-y-2 list-disc pl-5">

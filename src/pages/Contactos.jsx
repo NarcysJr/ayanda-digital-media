@@ -7,7 +7,7 @@ export default function Contactos() {
     document.title = "Contactos | Ayanda Digital Media";
   }, []);
   return (
-    <section className="bg-[#F5F0E8] overflow-x-hidden font-[Lato] py-32 px-4 sm:px-6 md:px-10 overflow-hidden">
+    <section className="bg-[#F5F0E8] overflow-x-hidden py-32 px-4 sm:px-6 md:px-10 overflow-hidden">
       {/* Título */}
       <h1 className="font-[Playfair Display] text-3xl sm:text-4xl text-center mb-12 wrap-break-words">
         Fale Connosco

@@ -35,13 +35,13 @@ export default function Footer() {
 
       <div className="flex justify-center space-x-4 mt-4 text-sm">
         <a
-          href="/politica-privacidade"
+          href="politica-privacidade"
           className="text-[#D4AF37] hover:underline"
         >
           Política de Privacidade
         </a>
         <span>|</span>
-        <a href="/termo" className="text-[#D4AF37] hover:underline">
+        <a href="termo" className="text-[#D4AF37] hover:underline">
           Termos e Condições
         </a>
       </div>
