@@ -1,0 +1,28 @@
+#heroSection {
+    height: 100vh;
+    background-image: url(/imgs/ensaio-corporativo/grande/cover-1-grande.jpg);
+}
+#galeria{
+  background-image: url(/imgs/ensaio-corporativo/grande/ensaioCorporativo-3-grande.jpg);
+}
+.layer{
+    padding-top: 250px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+button {
+  cursor: pointer;
+}
+
+.bg-fixed {
+  background-attachment: fixed;
+}
+
+@media (max-width: 768px) {
+  .layer {
+    height: 70vh;
+  }
+}

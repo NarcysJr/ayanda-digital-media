@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+  section.pb-20.pt-40 .grid {
+    grid-template-columns: 1fr !important;
+    gap: 2rem !important;
+  }
+  
+  section.pb-20.pt-40 .grid > div {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  section.pb-20.pt-40 .p-8 {
+    padding: 1.5rem !important;
+  }
+}
