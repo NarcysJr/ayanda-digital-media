@@ -4,16 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ayanda Digital Media</title>
+    <link rel="icon" href="/imgs/logo/favicon/favicon.ico">
     <script>
-        // Redireciona para a página principal
-        sessionStorage.redirect = location.pathname;
-        location.replace('/ayanda-digital-media');
+        
+        const path = window.location.pathname;
+        const basePath = '/ayanda-digital-media';
+        
+        if (path !== basePath + '/' && path !== basePath + '/index.html') {
+            // Armazena o caminho original e redireciona
+            sessionStorage.setItem('redirect', path);
+        }
+        
+        // Redireciona para a aplicação React
+        window.location.href = basePath + '/index.html';
     </script>
 </head>
 <body>
     <noscript>
         <h1>Ayanda Digital Media</h1>
-        <p>Se não for redirecionado automaticamente, <a href="/ayanda-digital-media">clique aqui</a>.</p>
+        <p>Redirecionando...</p>
+        <p>Se não for redirecionado automaticamente, <a href="/ayanda-digital-media/">clique aqui</a>.</p>
     </noscript>
 </body>
 </html>
