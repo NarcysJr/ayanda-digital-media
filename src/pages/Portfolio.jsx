@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { motion as Motion } from "framer-motion";
 
 export default function Portfolio() {
-  const [categoriaAtiva, setCategoriaAtiva] = useState("Todos");
+  const [categoriaAtiva, setCategoriaAtiva] = useState("Todas");
   const [imagemSelecionada, setImagemSelecionada] = useState(null);
 
   useEffect(() => {
@@ -79,7 +79,7 @@ export default function Portfolio() {
     },
   ];
 
-  const categorias = ["Todos", "Eventos", "Corporativo", "Ensaio Individual", "Ensaio Coletivo"];
+  const categorias = ["Todas", "Eventos", "Corporativo", "Ensaio Individual", "Ensaio Coletivo"];
 
   // Função que decide qual imagem mostrar consoante o tamanho do ecrã
   const obterImagemPorTamanho = (imgObj) => {
@@ -143,7 +143,7 @@ export default function Portfolio() {
       <section className="py-20 container mx-auto px-6">
         <div id="projetos" className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {projetos
-            .filter((p) => categoriaAtiva === "Todos" || p.categoria === categoriaAtiva)
+            .filter((p) => categoriaAtiva === "Todas" || p.categoria === categoriaAtiva)
             .map((p, i) => (
               <Motion.div
                 key={i}
